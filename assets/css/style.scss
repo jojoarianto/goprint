@@ -8,8 +8,11 @@ body{
   border-color: transparent;
   border-radius: 0px;
   padding-top: 30px;
-  .navbar-brand{
+  .navbar-nav>li>a,.navbar-brand{
     color: white;
+  }
+  .navbar-nav>li>a:hover,.navbar-brand:hover{
+    color: #DCDCDC;
   }
 }
 h1,h2,h3,h4,h5,h6{
@@ -20,7 +23,7 @@ header.primary{
   background-size: cover;
   color: white;
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   margin-top: -102px;
   .container{
     p{
@@ -66,4 +69,13 @@ header.primary{
 }
 .join{
   background-color: #F3F3F3;
+}
+footer{
+  background-color: #F3F3F3;
+  border-top: solid rgba(0, 0, 0, 0.02) 2px;
+  padding-top: 12px;
+  text-align: center;
+  font-size: 12pt;
+  color: #8A8A8A;
+  padding-bottom: 5px;
 }
