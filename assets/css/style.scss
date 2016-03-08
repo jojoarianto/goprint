@@ -1,10 +1,14 @@
 body{
   font-size: 13pt;
+  color: #504B4B;
 }
 .navbar-default {
+  font-size: 12pt;
   background-color: #FFFFFF;
   border-color: #e7e7e7;
   box-shadow: 0px 0px 6px -3px #171717;
+  border-radius: 0px;
+  margin-bottom: -30px;
 }
 h1,h2,h3,h4,h5,h6{
   font-family: "Raleway";
@@ -24,8 +28,9 @@ header.primary{
   }
 }
 .featured{
-  background-color: #00BCD4;
-  color: white;
+  .col-md-4{
+    padding: 65px;
+  }
 }
 .nice-padding{
   padding-top: 100px;
@@ -52,15 +57,10 @@ header.primary{
     transform: translate(-50%, -50%);
   }
 }
-.pink{
-  background-color: #D44655;
+.devices{
+  // background-color: #1B6195;
+  // color: white;
 }
-.rumud{
-  background-color: #46A0D4;
-}
-.biru{
-  background: #4665D4;
-}
-.hijau{
-  background: #59C161;
+.join{
+  background-color: #F3F3F3;
 }
