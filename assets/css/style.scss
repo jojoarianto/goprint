@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
 body{
   font-size: 13pt;
   color: #504B4B;
@@ -16,10 +17,10 @@ body{
   }
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: "Raleway";
+  font-family: "Raleway","Helvetica Neue", sans-serif;
 }
 header.primary{
-  background: url('../images/goprint.jpg') no-repeat center center fixed;
+  background: url('http://res.cloudinary.com/dt2mntbmf/image/upload/v1457500801/goprint_uugeql.jpg') no-repeat center center fixed;
   background-size: cover;
   color: white;
   padding-top: 150px;
